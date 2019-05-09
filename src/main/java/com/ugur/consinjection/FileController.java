@@ -7,13 +7,17 @@ import org.springframework.web.bind.annotation.RestController;
 public class FileController {
 
 	
+	final private FileService finalService;
 	
-	
-	
-	@RequestMapping
+	public FileController(FileService finalService) {
+		this.finalService = finalService;
+	}
+
+
+	@RequestMapping("/hasDocument")
 	public boolean hasDocument() {
 		
-		
+		return finalService.hasDocument();
 		
 	}
 	

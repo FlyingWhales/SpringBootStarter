@@ -27,9 +27,7 @@ public class SpringBootStarterApplication {
 			Arrays.sort(beanNames);
 			for (String beanName : beanNames) {
 
-				if (beanName.startsWith("P")) {
-					System.out.println(beanName);
-				}
+				//System.out.println(beanName);
 
 			}
 
