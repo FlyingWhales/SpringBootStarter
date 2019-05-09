@@ -9,7 +9,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan(basePackages = { "com.ugur.scope" })
+@ComponentScan(basePackages = { "com.ugur.circulardependency" })
 @SpringBootApplication
 public class SpringBootStarterApplication {
 
