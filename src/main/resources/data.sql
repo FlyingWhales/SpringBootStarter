@@ -1,13 +1,13 @@
-DROP TABLE IF EXISTS people;
+DROP TABLE IF EXISTS person;
  
-CREATE TABLE people (
+CREATE TABLE person (
   id INT AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(250) NOT NULL,
   sweetness INT NOT NULL,
   definition VARCHAR(250) DEFAULT NULL
 );
  
-INSERT INTO people (name, sweetness, definition) VALUES
+INSERT INTO person (name, sweetness, definition) VALUES
   ('Saadet', 100, 'The last içli köfte bender'),
   ('Ferhat', 170, 'Walking Man'),
   ('Onur', 100, 'Private Hero'),
